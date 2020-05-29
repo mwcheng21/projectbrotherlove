@@ -16,3 +16,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+
+.landing-profile-img {
+    width: 16em;
+    height: 16em;
+    background: url("../img/banner_img.jpg") no-repeat center center;
+    background-size: 100%;
+    background-clip: content-box;
+    border-radius: 32em;
+    border: 0.5em solid #424044;
+    margin: 2em auto;
+    box-shadow: 1px 10px 10px -8px #323034;
+}
+
