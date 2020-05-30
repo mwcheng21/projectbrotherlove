@@ -4,19 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
-  <link rel="stylesheet" href="assets/css/style.scss">
-  <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/schedule.css">
-  <link rel="stylesheet" href="assets/css/header.css">
-  <link rel="stylesheet" href="assets/css/contact.scss">
-  <link rel="stylesheet" href="assets/css/card.scss">
+  <link rel="stylesheet" href="../css/style.scss">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/header.css">
 
+<!--carousel-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  } 
+  </style>
+
+  <link rel="shortcut icon" type="image/jpg" href="assets/img/banner_img.jpg"/>
   <title>Project Brother Love 2020</title>
 </head>
 <body>
 
 
-<div class="hero-image">
+<div id="home" class="hero-image">
   <div class="hero-text">
     <p style="font-size: 50px;">Project Brother Love</p>
     <p>Summer 2020</p>
@@ -26,12 +37,13 @@
 
 
 <div id="navbar">
-  <a href="index.html">Home</a>
-  <a href="schedule.html">Schedule</a>
-  <a href="contact.html">Contact</a>
-  <a href="archives.html">Archives</a>
+  <a href="../../index.html#home">Home</a>
+  <a href="../../index.html#schedule">Schedule</a>
+  <a href="../../index.html#contact">Contact</a>
+  <a href="../../wall.html">2020 Photo Wall</a>
+  <a href="../../archives.html">Archives</a>
+  <a href="../../about.html">About</a>
 </div> <!--navbar-->
-
 
 
 
@@ -51,40 +63,40 @@
 
       <div class="card-v2 radius-md col-3@md">
         <figure>
-          <img src="assets/img/banner_img.jpg" alt="Image description">
+          <img src="../img/banner_img.jpg" alt="Image description">
           <figcaption class="card-v2__caption padding-x-sm padding-top-md padding-bottom-sm text-center">
             <div class="text-md text-base@md">Person 1</div>
-            <div class="margin-top-xxxs text-sm opacity-70%">Role or smth</div>
+            <div class="margin-top-xxxs text-sm opacity-70%">Contact info:</div>
           </figcaption>
         </figure>
       </div>
 
       <div class="card-v2 radius-md col-3@md">
         <figure>
-          <img src="assets/img/banner_img.jpg" alt="Image description">
+          <img src="../img/banner_img.jpg" alt="Image description">
           <figcaption class="card-v2__caption padding-x-sm padding-top-md padding-bottom-sm text-center">
             <div class="text-md text-base@md">Person 2</div>
-            <div class="margin-top-xxxs text-sm opacity-70%">Other Role</div>
+            <div class="margin-top-xxxs text-sm opacity-70%">Contact info:</div>
           </figcaption>
         </figure>
       </div>
 
       <div class="card-v2 radius-md col-3@md">
         <figure>
-          <img src="assets/img/banner_img.jpg" alt="Image description">
+          <img src="../img/banner_img.jpg" alt="Image description">
           <figcaption class="card-v2__caption padding-x-sm padding-top-md padding-bottom-sm text-center">
             <div class="text-md text-base@md">Person 3</div>
-            <div class="margin-top-xxxs text-sm opacity-70%">other role</div>
+            <div class="margin-top-xxxs text-sm opacity-70%">Contact info:</div>
           </figcaption>
         </figure>
       </div>
 
       <div class="card-v2 radius-md col-3@md">
         <figure>
-          <img src="assets/img/banner_img.jpg" alt="Image description">
+          <img src="../img/banner_img.jpg" alt="Image description">
           <figcaption class="card-v2__caption padding-x-sm padding-top-md padding-bottom-sm text-center">
             <div class="text-md text-base@md">Person 4</div>
-            <div class="margin-top-xxxs text-sm opacity-70%">Other ROle</div>
+            <div class="margin-top-xxxs text-sm opacity-70%">Contact info:</div>
           </figcaption>
         </figure>
       </div>
@@ -95,8 +107,9 @@
 
 
 <div>
+  <p style="text-align: center">Find us on Facebook!</p>
 <a href="https://www.facebook.com/groups/31773199866/">
-  <img src="assets/img/facebook.png" alt="facebook"  style="display: block; margin-left: auto; margin-right: auto; width:128px;height:128px;">
+  <img src="../img/facebook.png" alt="facebook"  style="display: block; margin-left: auto; margin-right: auto; width:128px;height:128px;">
 </a>
 </div>
 
@@ -111,8 +124,8 @@
 </div>
 
 
-  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/header.js"></script>
+  <script src="../js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="../js/main.js"></script>
+  <script src="../js/header.js"></script>
 </body>
 </html>

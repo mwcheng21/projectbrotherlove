@@ -4,16 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
-  <link rel="stylesheet" href="assets/css/style.scss">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="../css/style.scss">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/header.css">
 
+<!--carousel-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  } 
+  </style>
+
+  <link rel="shortcut icon" type="image/jpg" href="assets/img/banner_img.jpg"/>
   <title>Project Brother Love 2020</title>
 </head>
 <body>
 
 
-<div class="hero-image">
+<div id="home" class="hero-image">
   <div class="hero-text">
     <p style="font-size: 50px;">Project Brother Love</p>
     <p>Summer 2020</p>
@@ -23,11 +37,14 @@
 
 
 <div id="navbar">
-  <a href="index.html">Home</a>
-  <a href="schedule.html">Schedule</a>
-  <a href="contact.html">Contact</a>
-  <a href="archives.html">Archives</a>
+  <a href="../../index.html#home">Home</a>
+  <a href="../../index.html#schedule">Schedule</a>
+  <a href="../../index.html#contact">Contact</a>
+  <a href="../../wall.html">2020 Photo Wall</a>
+  <a href="../../archives.html">Archives</a>
+  <a href="../../about.html">About</a>
 </div> <!--navbar-->
+
 
 
 <!--CONTENT HERE-->
@@ -36,9 +53,7 @@
 
 
 
-
-
-  <header class="cd-main-header text-center flex flex-column flex-center">
+<header id="schedule" class="cd-main-header text-center flex flex-column flex-center">
     <br></br>
     <h1 class="text-xl">Schedule</h1>
   </header>
@@ -72,251 +87,362 @@
         <li><span>20:30</span></li>
         <li><span>21:00</span></li>
         <li><span>21:30</span></li>
-        <li><span>22:00</span></li>
 
       </ul>
     </div> <!-- .cd-schedule__timeline -->
   
-    <div class="cd-schedule__events">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="cd-schedule__events">
       <ul>
+      
+
         <li class="cd-schedule__group">
           <div class="cd-schedule__top-info"><span>Monday</span></div>
   
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:00" data-content="event-intro" data-event="event-1" href="event-intro.html">
-                <em class="cd-schedule__name">Introduction</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="12:30" data-content="event-thing1" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Morning Thing</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:30" data-end="13:00"  data-content="event-lunch" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Lunch</em>
-              </a>
-            </li>
+<ul>
 
-            <li class="cd-schedule__event">
-              <a data-start="13:00" data-end="16:00"  data-content="event-thing2" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Afternoon Thing</em>
-              </a>
-            </li>
-            <li class="cd-schedule__event">
-              <a data-start="16:00" data-end="17:00"  data-content="event-dinner" data-event="event-5" href="#0">
-                <em class="cd-schedule__name">Dinner</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:00" data-end="9:30"  data-content="event-Kick" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Kick off / Announcements / Opening Prayer </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="17:00" data-end="18:00"  data-content="event-closing" data-event="event-6" href="#0">
-                <em class="cd-schedule__name">Closing Speaker</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:30" data-end="10:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Devotions) </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="18:00" data-end="22:00"  data-content="event-end-lobby" data-event="event-7" href="#0">
-                <em class="cd-schedule__name">Nothing</em>
-              </a>
-            </li>
-          </ul>
-		  
-		  
+<li class="cd-schedule__event">
+	<a data-start="10:30" data-end="12:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 1 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="12:00" data-end="13:00"  data-content="event-Lunch" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Lunch </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="13:00" data-end="14:00"  data-content="event-E-Track" data-event="event-5" href="#0">
+		<em class="cd-schedule__name">E-Track light </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="14:00" data-end="16:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 2 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:00" data-end="16:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Debrief) </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:30" data-end="17:30"  data-content="event-Games" data-event="event-6" href="#0">
+		<em class="cd-schedule__name">Games </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="17:30" data-end="18:30"  data-content="event-Dinner" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Dinner </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="18:30" data-end="20:00"  data-content="event-Announcements" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Announcements / Worship / Speaker / Q&A / Discussion </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="20:00" data-end="21:00"  data-content="event-Games" data-event="event-6" href="#0">
+		<em class="cd-schedule__name">Games </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="21:00" data-end="21:30"  data-content="event-Closing" data-event="event-7" href="#0">
+		<em class="cd-schedule__name">Closing prayer </em>
+	</a>
+</li>
+
+          </ul>    
         </li>
-  
+        
+
         <li class="cd-schedule__group">
           <div class="cd-schedule__top-info"><span>Tuesday</span></div>
   
 <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:00" data-content="event-intro" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Introduction</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="12:30" data-content="event-thing1" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Morning Thing</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:30" data-end="13:00"  data-content="event-lunch" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Lunch</em>
-              </a>
-            </li>
 
-            <li class="cd-schedule__event">
-              <a data-start="13:00" data-end="16:00"  data-content="event-thing2" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Afternoon Thing</em>
-              </a>
-            </li>
-            <li class="cd-schedule__event">
-              <a data-start="16:00" data-end="17:00"  data-content="event-dinner" data-event="event-5" href="#0">
-                <em class="cd-schedule__name">Dinner</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:00" data-end="9:30"  data-content="event-Kick" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Kick off / Announcements / Opening Prayer </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="17:00" data-end="18:00"  data-content="event-closing" data-event="event-6" href="#0">
-                <em class="cd-schedule__name">Closing Speaker</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:30" data-end="10:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Devotions) </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="18:00" data-end="22:00"  data-content="event-end-lobby" data-event="event-7" href="#0">
-                <em class="cd-schedule__name">Nothing</em>
-              </a>
-            </li>
-          </ul>
+<li class="cd-schedule__event">
+	<a data-start="10:30" data-end="12:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 1 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="12:00" data-end="13:00"  data-content="event-Lunch" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Lunch </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="13:00" data-end="14:00"  data-content="event-E-Track" data-event="event-5" href="#0">
+		<em class="cd-schedule__name">E-Track light </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="14:00" data-end="16:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 2 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:00" data-end="16:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Debrief) </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:30" data-end="17:30"  data-content="event-Games" data-event="event-6" href="#0">
+		<em class="cd-schedule__name">Games </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="17:30" data-end="18:30"  data-content="event-Dinner" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Dinner </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="18:30" data-end="20:00"  data-content="event-Announcements" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Announcements / Worship / Speaker / Q&A / Discussion </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="20:00" data-end="21:00"  data-content="event-Games" data-event="event-6" href="#0">
+		<em class="cd-schedule__name">Games </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="21:00" data-end="21:30"  data-content="event-Prayer" data-event="event-7" href="#0">
+		<em class="cd-schedule__name">Prayer Night </em>
+	</a>
+</li>
+
+          </ul>    
         </li>
-  
+        
+
         <li class="cd-schedule__group">
           <div class="cd-schedule__top-info"><span>Wednesday</span></div>
   
 <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:00" data-content="event-intro" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Introduction</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="12:30" data-content="event-thing1" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Morning Thing</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:30" data-end="13:00"  data-content="event-lunch" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Lunch</em>
-              </a>
-            </li>
 
-            <li class="cd-schedule__event">
-              <a data-start="13:00" data-end="16:00"  data-content="event-thing2" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Afternoon Thing</em>
-              </a>
-            </li>
-            <li class="cd-schedule__event">
-              <a data-start="16:00" data-end="17:00"  data-content="event-dinner" data-event="event-5" href="#0">
-                <em class="cd-schedule__name">Dinner</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:00" data-end="9:30"  data-content="event-Kick" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Kick off / Announcements / Opening Prayer </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="17:00" data-end="18:00"  data-content="event-closing" data-event="event-6" href="#0">
-                <em class="cd-schedule__name">Closing Speaker</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:30" data-end="10:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Devotions) </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="18:00" data-end="22:00"  data-content="event-end-lobby" data-event="event-7" href="#0">
-                <em class="cd-schedule__name">Nothing</em>
-              </a>
-            </li>
-          </ul>
+<li class="cd-schedule__event">
+	<a data-start="10:30" data-end="12:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 1 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="12:00" data-end="13:00"  data-content="event-Lunch" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Lunch </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="13:00" data-end="14:00"  data-content="event-E-Track" data-event="event-5" href="#0">
+		<em class="cd-schedule__name">E-Track light </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="14:00" data-end="16:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 2 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:00" data-end="16:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Debrief) </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:30" data-end="17:30"  data-content="event-Games" data-event="event-6" href="#0">
+		<em class="cd-schedule__name">Games </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="17:30" data-end="18:30"  data-content="event-Dinner" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Dinner </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="18:30" data-end="20:00"  data-content="event-Announcements" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Announcements / Worship / Speaker / Q&A / Discussion </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="20:00" data-end="21:00"  data-content="event-Games" data-event="event-6" href="#0">
+		<em class="cd-schedule__name">Games </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="21:00" data-end="21:30"  data-content="event-Sharing" data-event="event-7" href="#0">
+		<em class="cd-schedule__name">Sharing Night / Closing </em>
+	</a>
+</li>
+
+          </ul>    
         </li>
-  
+        
+
         <li class="cd-schedule__group">
           <div class="cd-schedule__top-info"><span>Thursday</span></div>
   
 <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:00" data-content="event-intro" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Introduction</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="12:30" data-content="event-thing1" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Morning Thing</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:30" data-end="13:00"  data-content="event-lunch" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Lunch</em>
-              </a>
-            </li>
 
-            <li class="cd-schedule__event">
-              <a data-start="13:00" data-end="16:00"  data-content="event-thing2" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Afternoon Thing</em>
-              </a>
-            </li>
-            <li class="cd-schedule__event">
-              <a data-start="16:00" data-end="17:00"  data-content="event-dinner" data-event="event-5" href="#0">
-                <em class="cd-schedule__name">Dinner</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:00" data-end="9:30"  data-content="event-Kick" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Kick off / Announcements / Opening Prayer </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="17:00" data-end="18:00"  data-content="event-closing" data-event="event-6" href="#0">
-                <em class="cd-schedule__name">Closing Speaker</em>
-              </a>
-            </li>
+<li class="cd-schedule__event">
+	<a data-start="9:30" data-end="10:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Devotions) </em>
+	</a>
+</li>
 
-            <li class="cd-schedule__event">
-              <a data-start="18:00" data-end="22:00"  data-content="event-end-lobby" data-event="event-7" href="#0">
-                <em class="cd-schedule__name">Nothing</em>
-              </a>
-            </li>
-          </ul>
+<li class="cd-schedule__event">
+	<a data-start="10:30" data-end="12:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 1 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="12:00" data-end="13:00"  data-content="event-Lunch" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Lunch </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="13:00" data-end="14:00"  data-content="event-Thriving" data-event="event-5" href="#0">
+		<em class="cd-schedule__name">Thriving in College </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="14:00" data-end="16:00"  data-content="event-Activity" data-event="event-3" href="#0">
+		<em class="cd-schedule__name">Activity 2 </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:00" data-end="16:30"  data-content="event-Group" data-event="event-2" href="#0">
+		<em class="cd-schedule__name">Group Time (Debrief) </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="16:30" data-end="17:30"  data-content="event-Games" data-event="event-6" href="#0">
+		<em class="cd-schedule__name">Games </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="17:30" data-end="18:30"  data-content="event-Dinner" data-event="event-4" href="#0">
+		<em class="cd-schedule__name">Dinner </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="18:30" data-end="20:00"  data-content="event-Announcements" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Announcements / Worship / Speaker / Q&A / Discussion </em>
+	</a>
+</li>
+
+<li class="cd-schedule__event">
+	<a data-start="20:00" data-end="21:00"  data-content="event-Senior" data-event="event-1" href="#0">
+		<em class="cd-schedule__name">Senior Send off / Closing </em>
+	</a>
+</li>
+
+          </ul>    
         </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Friday</span></div>
-  
- <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:00" data-content="event-intro" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Introduction</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="12:30" data-content="event-thing1" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Morning Thing</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:30" data-end="13:00"  data-content="event-lunch" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Lunch</em>
-              </a>
-            </li>
-
-            <li class="cd-schedule__event">
-              <a data-start="13:00" data-end="16:00"  data-content="event-thing2" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Afternoon Thing</em>
-              </a>
-            </li>
-            <li class="cd-schedule__event">
-              <a data-start="16:00" data-end="17:00"  data-content="event-dinner" data-event="event-5" href="#0">
-                <em class="cd-schedule__name">Dinner</em>
-              </a>
-            </li>
-
-            <li class="cd-schedule__event">
-              <a data-start="17:00" data-end="18:00"  data-content="event-closing" data-event="event-6" href="#0">
-                <em class="cd-schedule__name">Closing Speaker</em>
-              </a>
-            </li>
-
-            <li class="cd-schedule__event">
-              <a data-start="18:00" data-end="22:00"  data-content="event-end-lobby" data-event="event-7" href="#0">
-                <em class="cd-schedule__name">Nothing</em>
-              </a>
-            </li>
-          </ul>
-        </li>
+        
       </ul>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
     <div class="cd-schedule-modal">
       <header class="cd-schedule-modal__header">
@@ -345,10 +471,12 @@
 
 
 
-  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/header.js"></script>
-  <script src="assets/js/schedule.js"></script>
+
+
+  <script src="../js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="../js/main.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/schedule.js"></script>
 
 </body>
 </html>
