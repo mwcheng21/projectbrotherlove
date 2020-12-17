@@ -16,21 +16,21 @@
 .container {
 	position: relative;
 	color: white;
-  }
+}
   
 
-  /* Top left text */
-  .time {
+/* Top left text */
+.time {
 	position: absolute;
 	top: 3%;
 	left: 16px;
-  }
-  .activity {
+}
+.activity {
 	position: absolute;
 	top: 20%;
 	font-size: 1.5em;
 	width: 100%;
-  }
+}
 
 .counselorsSlideshow div p {
 	font-size: 1.5em;
