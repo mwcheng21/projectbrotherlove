@@ -220,40 +220,7 @@
 
 			<!-- Footer -->
 				<div id="footer">
-					<div class="container">
-
-						<div class="row">
-							<div class="col-12">
-
-								<!-- Contact -->
-									<section class="contact">
-										<header>
-											<h3>Questions?</h3>
-										</header>
-										<p>You can contact us at the places below.</p>
-										<ul class="icons">
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon regular fa-envelope"><span class="label">Email</span></a></li>
-											<li><a href="#" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
-											<!--<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>-->
-										</ul>
-									</section>
-
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>Third-party trademarks are the property of their respective third-party owners. Presence of a third-party trademark does not mean that I have any relationship with that third-party or that the third-party endorses me or my services. </a></li>
-										</ul>
-									</div>
-
-							</div>
-
-						</div>
-					</div>
+					
 				</div>
 
 		</div>
@@ -271,6 +238,7 @@
 			<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 			<script>
 			$(function() {
+				$("#footer").load("footer.html");
 				$(".currentSchedule").slick({
 					dots: true,
 					infinite: true,
