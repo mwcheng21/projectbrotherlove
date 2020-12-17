@@ -1,58 +1,108 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script>document.getElementsByTagName("html")[0].className += " js";</script>
-  <link rel="stylesheet" href="assets/css/style.scss">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/header.css">
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project Brother Love</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
 
-<!--carousel-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  } 
-  </style>
+			<!-- Header -->
+            <div id="header">
 
-  <link rel="shortcut icon" type="image/jpg" href="assets/img/banner_img.jpg"/>
-  <title>Project Brother Love 2020</title>
-</head>
-<body>
-
-
-<div id="home" class="hero-image">
-  <div class="hero-text">
-    <p style="font-size: 50px;">Project Brother Love</p>
-    <p>Summer 2020</p>
-  </div>
-</div> <!--banner-->
+                <!-- Inner -->
+                    <div class="inner">
+                        <header>
+                            <h1><a href="index.html" id="logo">Project Brother Love</a></h1>
+                        </header>
+                    </div>
 
 
+					<!-- Nav -->
+                    <nav id="nav">
+                    </nav>
 
-<div id="navbar">
-  <a href="index.html#home">Home</a>
-  <a href="index.html#schedule">Schedule</a>
-  <a href="index.html#contact">Contact</a>
-  <a href="wall.html">2020 Photo Wall</a>
-  <a href="archives.html">Archives</a>
-  <a href="about.html">About</a>
-</div> <!--navbar-->
+            </div>
+        
 
 
-<p>Description or something
-</p>
+			<!-- Banner -->
+            <section id="banner">
+                <header>
+                    <h2>Welcome to <strong>Project Brother Love</strong>.</h2>
+                    <p>
+                        We are so excited to have you join us. We will be running the Winter edition from December 27 through 29
+                    </p>
+                </header>
+                <footer>
+                    <div class="row">
+                        <article class="col-4 col-12-mobile special">
+                            <a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+                            <header>
+                                <h3><a href="#">Gravida aliquam penatibus</a></h3>
+                            </header>
+                            <p>
+                                Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+                                porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+                            </p>
+                        </article>
+                        <article class="col-4 col-12-mobile special">
+                            <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+                            <header>
+                                <h3><a href="#">Sed quis rhoncus placerat</a></h3>
+                            </header>
+                            <p>
+                                Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+                                porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+                            </p>
+                        </article>
+                        <article class="col-4 col-12-mobile special">
+                            <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+                            <header>
+                                <h3><a href="#">Sed quis rhoncus placerat</a></h3>
+                            </header>
+                            <p>
+                                Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+                                porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+                            </p>
+                        </article>
+                    </div>
+                </footer>
+            </section>
 
-  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/header.js"></script>
-  <script src="assets/js/schedule.js"></script>
+    
+			<!-- Footer -->
+            <div id="footer">
+            </div>
+        </div>
+    
+    
+            <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+            <script>
+                $(function() {
+                    $("#nav").load("header.html");
+                    $("#footer").load("footer.html");
+                });
+            </script>
 
-</body>
+	</body>
 </html>
