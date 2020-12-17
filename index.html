@@ -94,32 +94,40 @@
 				<section class="centered">
 					<header>
 						<h2>Today's Schedule</h2>
+						<p>For the full schedule, and event details, please check the full schedule <a href="schedule.html">here</a></p>
 					</header>
 					<footer>
 						<section class="currentSchedule slider">
 							<div>
 								<article>
 									<div class="container">
-										<img src="images/pic01.jpg" style="width:100%;">
-										<div class="time">7-7:30</div>
+										<a href="#schedule-content-container" onclick="showDetails('Counselors Prayer', 'event-pray')"><div class="container">
+											<img src="images/pic01.jpg" style="width:100%;">
+											<div class="time">7-7:30</div>
 										<div class="activity">Counselors Prayer</div>
-									  </div>
+									  </div></a>
 								</article>
 							</div>
 							<div>
 								<article>
-									<div class="container">
+									<a href="#schedule-content-container" onclick="showDetails('Welcome + Meet the Variety', 'event-welcome')"><div class="container">
 										<img src="images/pic01.jpg" style="width:100%;">
 										<div class="time">7:30-9:30</div>
 										<div class="activity">Welcome + Meet the Variety!</div>
-									  </div>
+									  </div></a>
 								</article>
 							</div>
-			
 						</section>
 					</footer>
 				</section>
 
+				<!--Schedule-->
+				<section class="centered" id="schedule-content-container">
+					<header>
+						<h2 id="schedule-name"></h2>
+						<p id="schedule-content"></p>
+					</header>
+				</section>
 
 				<!--Counselors-->
 				<section class="centered">
@@ -212,6 +220,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/my.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 			<script>
