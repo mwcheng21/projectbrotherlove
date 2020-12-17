@@ -73,9 +73,9 @@
 					<header>
 						<h2>Welcome to <strong>Project Brother Love</strong>.</h2>
 						<p>
-							We are so excited to have you join us. We will be running the Winter edition from December 27 through 29. 
+							We are so excited to have you join us. We will be running the Winter edition from December <strong>27</strong> through <strong>29</strong> 
 							<br>
-							<a href="ministries.html">Check out the ministiries we are working with this year!</a>
+							<a href="ministries.html"><strong> Check out the ministiries we are working with this year!</strong></a>
 						</p>
 					</header>
 					<footer>
@@ -132,7 +132,7 @@
 				</section>
 
 				<!--Counselors-->
-				<section class="centered">
+				<section class="centered" style="background-color: white;">
 					<header>
 						<h2>Your Counselors</h2>
 					</header>
@@ -165,6 +165,50 @@
 
 
 
+
+			<!-- who we serve -->
+            <section id="banner" style="background-color: #f0f4f4;">
+                <header>
+                    <h2><a href="ministries.html">This Year's Ministries.</a></h2>
+                    <p>
+                        This year we are serving these ministiries. For more details and a full list of who we serve, please see <a href="ministries.html">here</a>.
+                    </p>
+                </header>
+                <footer>
+                    <section class="ministriesSlideshow slider">
+                        <article class="col-4 col-12-mobile special"> <!--start card-->
+                            <a href="chosen300.html" class="image featured"><img src="assets/img/chosen300.png" alt="" /></a>
+                            <header>
+                                <h3><a href="./chosen300.html">Chosen 300</a></h3>
+                            </header>
+                        </article> <!--end card-->
+                        <article class="col-4 col-12-mobile special"> <!--start card-->
+                            <a href="whosoever.html" class="image featured"><img src="assets/img/Whosoever.jpg" alt="" /></a>
+                            <header>
+                                <h3><a href="./whosoever.html">Whosoever Gospel Mission</a></h3>
+                            </header>
+                        </article> <!--end card-->
+                        <article class="col-4 col-12-mobile special"> <!--start card-->
+                            <a href="nancyonlok.html" class="image featured"><img src="http://placehold.it/300x300?text=On Lok House" alt="" /></a>
+                            <header>
+                                <h3><a href="./nancyonlok.html">Nancy On Lok House</a></h3>
+                            </header>
+                        </article> <!--end card-->
+                        <article class="col-4 col-12-mobile special"> <!--start card-->
+                            <a href="retirement.html" class="image featured"><img src="http://placehold.it/300x300?text=Retirement Home" alt="" /></a>
+                            <header>
+                                <h3><a href="./retirement.html">Retirement Home</a></h3>
+                            </header>
+                        </article> <!--end card-->
+                        <article class="col-4 col-12-mobile special"> <!--start card-->
+                            <a href="helpinghands.html" class="image featured"><img src="assets/img/helpinghands.png" alt="" /></a>
+                            <header>
+                                <h3><a href="./helpinghands.html">Helping Hands</a></h3>
+                            </header>
+                        </article> <!--end card-->
+                    </section>
+                </footer>
+            </section>
 
 
 
@@ -291,6 +335,39 @@
 					}
 				]
 				});
+				$(".ministriesSlideshow").slick({
+                        dots: true,
+                        infinite: true,
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        responsive: [
+                        {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                        },
+                        {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                        },
+                        {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                        }
+                    ]
+                    });
 			});
 			</script>
 	</body>
