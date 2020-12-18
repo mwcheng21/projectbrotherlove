@@ -9,12 +9,9 @@ $("#nav").css("position", "fixed")
 $("#nav").css("z-index", "2")
 function colorNav() {
   if (window.pageYOffset != 0) {
-      $("#nav").css("color", "black")
-      $("#nav").css("background-color", "#f0f4f4")
-    //navbar.classList.add("sticky")
+    document.getElementById("nav").classList.add("darkened")
   } else {
-    //navbar.classList.remove("sticky");
-    $("#nav").css("color", "white")
-    $("#nav").css("background-color", "transparent ")
+    document.getElementById("nav").classList.remove("darkened");
+
 }
 }

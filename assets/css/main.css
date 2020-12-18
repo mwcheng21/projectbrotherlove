@@ -2329,8 +2329,17 @@ input, select, textarea {
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+		color: white;
+		background-color: transparent;
 	}
-
+	#nav.darkened {
+		color: black;
+		background-color: #b9b9b9;
+	}
+	#nav.darkened > ul:before, #nav.darkened > ul:after {
+		border-top: solid 1px rgba(255, 255, 255, 0.35);
+		border-bottom: solid 1px rgba(255, 255, 255, 0.35);
+	}
 		#nav > ul {
 			line-height: 0px;
 			position: relative;
