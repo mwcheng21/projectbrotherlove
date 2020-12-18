@@ -6,6 +6,7 @@ function showDetails(eventtime, eventname, pagename) {
 //color sticky nav
 window.onscroll = function() {colorNav()};
 $("#nav").css("position", "fixed")
+$("#nav").css("z-index", "2")
 function colorNav() {
   if (window.pageYOffset != 0) {
       $("#nav").css("color", "black")
