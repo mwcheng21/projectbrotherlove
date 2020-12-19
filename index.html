@@ -37,8 +37,12 @@
 
 						</nav>
 
-				</div>
-
+			</div>
+			<script src="assets/js/jquery.min.js"></script>
+			<script>
+				$("#nav").load("header.html");
+			</script>
+			
 			<!-- Banner -->
 				<section id="banner">
 					<header>
@@ -75,7 +79,7 @@
 								<article>
 									<div class="container">
 										<a href="#schedule-content-container" onclick="showDetails('7pm-7:30pm', 'Counselors Prayer', 'event-pray')"><div class="container">
-											<img src="images/pic01.jpg" style="width:100%;">
+											<img data-lazy="images/pic01.jpg" style="width:100%;">
 											<div class="time">7-7:30</div>
 										<div class="activity">Counselors Prayer</div>
 									  </div></a>
@@ -84,7 +88,7 @@
 							<div>
 								<article>
 									<a href="#schedule-content-container" onclick="showDetails('7:30pm-9:30pm', 'Welcome + Meet the Variety', 'event-welcome')"><div class="container">
-										<img src="images/pic01.jpg" style="width:100%;">
+										<img data-lazy="images/pic01.jpg" style="width:100%;">
 										<div class="time">7:30-9:30</div>
 										<div class="activity">Welcome + Meet the Variety!</div>
 									  </div></a>
@@ -110,27 +114,27 @@
 					<footer>
 						<section class="counselorsSlideshow slider">
 							<div>
-								<img src="./assets/img/DanielGao.jpg">
+								<img data-lazy="./assets/img/DanielGao.jpg">
 								<p>Daniel Gao</p>
 							</div>
 							<div>
-								<img src="./assets/img/AileenSetiawan.png">
+								<img data-lazy="./assets/img/AileenSetiawan.png">
 								<p>Aileen Setiawan</p>
 							</div>
 							<div>
-								<img src="./assets/img/LemuelFung.jpg">
+								<img data-lazy="./assets/img/LemuelFung.jpg">
 								<p>Lemuel Fung</p>
 							</div>
 							<div>
-								<img src="./assets/img/JaneXu.png">
+								<img data-lazy="./assets/img/JaneXu.png">
 								<p>Jane Xu</p>
 							</div>
 							<div>
-								<img src="./assets/img/BobMcNeill.png">
+								<img data-lazy="./assets/img/BobMcNeill.png">
 								<p>Bob McNeill</p>
 							</div>
 							<div>
-								<img src="./assets/img/MeiMcNeill.png">
+								<img data-lazy="./assets/img/MeiMcNeill.png">
 								<p>Mei McNeill</p>
 							</div>
 						</section>
@@ -152,31 +156,31 @@
                 <footer>
                     <section class="ministriesSlideshow slider">
                         <article class="col-4 col-12-mobile special"> <!--start card-->
-                            <a href="chosen300.html" class="image featured"><img src="assets/img/chosen300.png" alt="" /></a>
+                            <a href="chosen300.html" class="image featured"><img data-lazy="assets/img/chosen300.png" alt="" /></a>
                             <header>
                                 <h3><a href="./chosen300.html">Chosen 300</a></h3>
                             </header>
                         </article> <!--end card-->
                         <article class="col-4 col-12-mobile special"> <!--start card-->
-                            <a href="whosoever.html" class="image featured"><img src="assets/img/Whosoever.jpg" alt="" /></a>
+                            <a href="whosoever.html" class="image featured"><img data-lazy="assets/img/Whosoever.jpg" alt="" /></a>
                             <header>
                                 <h3><a href="./whosoever.html">Whosoever Gospel Mission</a></h3>
                             </header>
                         </article> <!--end card-->
                         <article class="col-4 col-12-mobile special"> <!--start card-->
-                            <a href="nancyonlok.html" class="image featured"><img src="https://placehold.it/300x300?text=On Lok House" alt="" /></a>
+                            <a href="nancyonlok.html" class="image featured"><img data-lazy="https://placehold.it/300x300?text=On Lok House" alt="" /></a>
                             <header>
                                 <h3><a href="./nancyonlok.html">Nancy On Lok House</a></h3>
                             </header>
                         </article> <!--end card-->
                         <article class="col-4 col-12-mobile special"> <!--start card-->
-                            <a href="retirement.html" class="image featured"><img src="https://placehold.it/300x300?text=Retirement Home" alt="" /></a>
+                            <a href="retirement.html" class="image featured"><img data-lazy="https://placehold.it/300x300?text=Retirement Home" alt="" /></a>
                             <header>
                                 <h3><a href="./retirement.html">Retirement Home</a></h3>
                             </header>
                         </article> <!--end card-->
                         <article class="col-4 col-12-mobile special"> <!--start card-->
-                            <a href="helpinghands.html" class="image featured"><img src="assets/img/helpinghands.png" alt="" /></a>
+                            <a href="helpinghands.html" class="image featured"><img data-lazy="assets/img/helpinghands.png" alt="" /></a>
                             <header>
                                 <h3><a href="./helpinghands.html">Helping Hands</a></h3>
                             </header>
@@ -201,10 +205,7 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script>
-				$("#nav").load("header.html");
-			</script>
+
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -219,6 +220,7 @@
 					dots: true,
 					slidesToShow: 4,
 					slidesToScroll: 4,
+					lazyLoad: 'ondemand',
 					responsive: [
 					{
 					breakpoint: 1024,
@@ -252,6 +254,7 @@
 					slidesToScroll: 4,
 					autoplay: true,
 					autoplaySpeed: 2000,
+					lazyLoad: 'ondemand',
 					responsive: [
 					{
 					breakpoint: 1024,
@@ -284,7 +287,8 @@
                         slidesToShow: 4,
                         slidesToScroll: 4,
                         autoplay: true,
-                        autoplaySpeed: 2000,
+						autoplaySpeed: 2000,
+						lazyLoad: 'ondemand',
                         responsive: [
                         {
                         breakpoint: 1024,
