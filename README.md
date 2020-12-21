@@ -9,9 +9,13 @@ We serve a variety of non-profit organizations and ministries in the city of Phi
 
 
 
-Credits:
+## Credits:
 Font Awesome (fontawesome.io)
+
 jQuery (jquery.com)
+
 Scrollex (github.com/ajlkn/jquery.scrollex)
+
 Responsive Tools (github.com/ajlkn/responsive-tools)
+
 Helios by HTML5Up (html5up.net)
