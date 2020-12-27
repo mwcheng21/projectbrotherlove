@@ -1,5 +1,5 @@
 # Project Brother Love
-[projectbrotherlove.com](projectbrotherlove.com)
+[projectbrotherlove.com](https://projectbrotherlove.com)
 
 ## Who we are
 Project Brother Love (PBL) is a Service and Evangelism project where youth in the greater Philadelphia area get to serve and love those in need.
