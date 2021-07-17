@@ -1,0 +1,58 @@
+
+<!--start Tuesday-->
+<li class="cd-schedule__group">
+<div class="cd-schedule__top-info"><span>Tuesday (8/10)</span></div>
+
+<ul>
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="9:30" data-end="10:00" data-content="event-Counselors" data-event="event-2" href="#0">
+<em class="cd-schedule__name">Counselors Meet and Prayer
+</em>
+</a>
+</li><!-- end event-->
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="10:00" data-end="11:30" data-content="event-Welcome" data-event="event-3" href="#0">
+<em class="cd-schedule__name">Welcome Orientation, Icebreakers, Meet Variety Groups
+</em>
+</a>
+</li><!-- end event-->
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="11:30" data-end="12:30" data-content="event-Lunch" data-event="event-4" href="#0">
+<em class="cd-schedule__name">Lunch
+</em>
+</a>
+</li><!-- end event-->
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="12:30" data-end="13:00" data-content="event-Devotionals" data-event="event-1" href="#0">
+<em class="cd-schedule__name">Devotionals
+</em>
+</a>
+</li><!-- end event-->
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="13:00" data-end="15:00" data-content="event-Activity" data-event="event-2" href="#0">
+<em class="cd-schedule__name">Activity (Self-Care Package + Encouragement Notes)
+</em>
+</a>
+</li><!-- end event-->
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="15:00" data-end="16:00" data-content="event-Games" data-event="event-3" href="#0">
+<em class="cd-schedule__name">Games
+</em>
+</a>
+</li><!-- end event-->
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="16:00" data-end="17:00" data-content="event-Counselor" data-event="event-4" href="#0">
+<em class="cd-schedule__name">Counselor Debrief / Free Time
+</em>
+</a>
+</li><!-- end event-->
+
+</ul>
+</li><!-- end day-->
