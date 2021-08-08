@@ -27,14 +27,14 @@
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="12:30" data-end="13:00" data-content="event-Devotionals" data-event="event-1" href="#0">
+<a data-start="12:30" data-end="13:00" data-content="event-devo-1" data-event="event-1" href="#0">
 <em class="cd-schedule__name">Devotionals
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="13:00" data-end="15:00" data-content="event-Activity" data-event="event-2" href="#0">
+<a data-start="13:00" data-end="15:00" data-content="event-activity-1" data-event="event-2" href="#0">
 <em class="cd-schedule__name">Activity (Self-Care Package + Encouragement Notes)
 </em>
 </a>
