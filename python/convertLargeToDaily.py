@@ -15,7 +15,7 @@ def convertTimeToAmPm(time):
 	hr, min = time.split(":")
 	if (int(hr) < 8 or int(hr) >= 12):
 		if (int(hr) > 12):
-			return str(int(hr) - 12) + "pm"
+			return str(int(hr) - 12) + ":" + min + "pm"
 		return time + "pm"
 	return time + "am"
 outputString = ""

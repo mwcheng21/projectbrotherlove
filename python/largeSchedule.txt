@@ -1,61 +1,49 @@
-<!--start Thurday-->
+
+<!--start Friday-->
 <li class="cd-schedule__group">
-<div class="cd-schedule__top-info"><span>Thurday (8/12)</span></div>
+<div class="cd-schedule__top-info"><span>Friday (8/13)<p style="color:red;">*In person (No sleepover)</p></span></div>
 
 <ul>
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="9:30" data-end="10:00" data-content="event-Counselors" data-event="event-2" href="#0">
-<em class="cd-schedule__name">Counselors Meet and Prayer
+<a data-start="9:00" data-end="10:00" data-content="event-Need" data-event="event-3" href="#0">
+<em class="cd-schedule__name">Arrive at Church by 9:00am
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="10:00" data-end="11:30" data-content="event-speaker-2" data-event="event-3" href="#0">
-<em class="cd-schedule__name">Worship, Speaker - Harry Leong (CCCNC), Q & A, Discussion
+<a data-start="10:00" data-end="15:00" data-content="event-In" data-event="event-4" href="#0">
+<em class="cd-schedule__name" style="text-align: center;">In Person Volunteering <br><br>Manna <br>CCCNC<br><br><span style="color:red;">BRING YOUR OWN LUNCH</span> <br>
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="11:30" data-end="12:30" data-content="event-Lunch" data-event="event-4" href="#0">
-<em class="cd-schedule__name">Lunch
+<a data-start="15:00" data-end="16:00" data-content="event-devo-4" data-event="event-1" href="#0">
+<em class="cd-schedule__name">Debrief and Devos
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="12:30" data-end="13:00" data-content="event-devo-3" data-event="event-1" href="#0">
-<em class="cd-schedule__name">Devotionals
+<a data-start="16:00" data-end="16:30" data-content="event-Games" data-event="event-2" href="#0">
+<em class="cd-schedule__name">Games Until Parent Pick Up
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="13:00" data-end="15:00" data-content="event-activity-3" data-event="event-2" href="#0">
-<em class="cd-schedule__name">Activity (Baking) and Variety Group Debrief
+<a data-start="16:30" data-end="17:00" data-content="event-Parent" data-event="event-3" href="#0">
+<em class="cd-schedule__name">Parent Pick Up 4:30 -5PM
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="15:00" data-end="15:30" data-content="event-Games" data-event="event-3" href="#0">
-<em class="cd-schedule__name">Games
+<a data-start="17:00" data-end="17:30" data-content="event-Counselor" data-event="event-4" href="#0">
+<em class="cd-schedule__name">Counselor Debrief (4:30 - 5:30 PM)
 </em>
-</a>
-</li><!-- end event-->
-
-<li class="cd-schedule__event"><!--event start-->
-<a data-start="15:30" data-end="16:30" data-content="event-Prayer" data-event="event-4" href="#0">
-<em class="cd-schedule__name">Prayer Night
-</em>
-</a>
-</li><!-- end event-->
-
-<li class="cd-schedule__event"><!--event start-->
-<a data-start="16:30" data-end="17:00" data-content="event-Counselor" data-event="event-1" href="#0">
-<em class="cd-schedule__name">Counselor Debrief / Free Time</em>
 </a>
 </li><!-- end event-->
 
