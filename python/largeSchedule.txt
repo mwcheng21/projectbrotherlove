@@ -1,7 +1,6 @@
-
-<!--start Wednesday-->
+<!--start Thurday-->
 <li class="cd-schedule__group">
-<div class="cd-schedule__top-info"><span>Wednesday (8/11)</span></div>
+<div class="cd-schedule__top-info"><span>Thurday (8/12)</span></div>
 
 <ul>
 
@@ -13,8 +12,8 @@
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="10:00" data-end="11:30" data-content="event-speaker-1" data-event="event-3" href="#0">
-<em class="cd-schedule__name">Worship, Speaker - Heather Rice (Whosoever Gospel), Q & A, Discussion
+<a data-start="10:00" data-end="11:30" data-content="event-speaker-2" data-event="event-3" href="#0">
+<em class="cd-schedule__name">Worship, Speaker - Harry Leong (CCCNC), Q & A, Discussion
 </em>
 </a>
 </li><!-- end event-->
@@ -27,32 +26,39 @@
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="12:30" data-end="13:00" data-content="event-devo-2" data-event="event-1" href="#0">
+<a data-start="12:30" data-end="13:00" data-content="event-devo-3" data-event="event-1" href="#0">
 <em class="cd-schedule__name">Devotionals
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="13:00" data-end="15:00" data-content="event-activity-2" data-event="event-2" href="#0">
-<em class="cd-schedule__name">Activity (Kare package for Kidz + Encouragement Notes )
+<a data-start="13:00" data-end="15:00" data-content="event-activity-3" data-event="event-2" href="#0">
+<em class="cd-schedule__name">Activity (Baking) and Variety Group Debrief
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="15:00" data-end="16:00" data-content="event-Games" data-event="event-3" href="#0">
+<a data-start="15:00" data-end="15:30" data-content="event-Games" data-event="event-3" href="#0">
 <em class="cd-schedule__name">Games
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="16:00" data-end="17:00" data-content="event-Counselor" data-event="event-4" href="#0">
-<em class="cd-schedule__name">Counselor Debrief / Free Time
+<a data-start="15:30" data-end="16:30" data-content="event-Prayer" data-event="event-4" href="#0">
+<em class="cd-schedule__name">Prayer Night
 </em>
+</a>
+</li><!-- end event-->
+
+<li class="cd-schedule__event"><!--event start-->
+<a data-start="16:30" data-end="17:00" data-content="event-Counselor" data-event="event-1" href="#0">
+<em class="cd-schedule__name">Counselor Debrief / Free Time</em>
 </a>
 </li><!-- end event-->
 
 </ul>
 </li><!-- end day-->
+
