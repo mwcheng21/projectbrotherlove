@@ -1,10 +1,10 @@
 
-<!--start Friday-->
+
+<!--start Saturday-->
 <li class="cd-schedule__group">
-<div class="cd-schedule__top-info"><span>Friday (8/13)<p style="color:red;">*In person (No sleepover)</p></span></div>
+<div class="cd-schedule__top-info"><span>Saturday (8/14)<p style="color:red;">*In person (No sleepover)</p></span></div>
 
 <ul>
-
 <li class="cd-schedule__event"><!--event start-->
 <a data-start="9:00" data-end="10:00" data-content="event-Need" data-event="event-3" href="#0">
 <em class="cd-schedule__name">Arrive at Church by 9:00am
@@ -14,13 +14,13 @@
 
 <li class="cd-schedule__event"><!--event start-->
 <a data-start="10:00" data-end="15:00" data-content="event-In" data-event="event-4" href="#0">
-<em class="cd-schedule__name" style="text-align: center;">In Person Volunteering <br><br>Manna <br>CCCNC<br><br><span style="color:red;">BRING YOUR OWN LUNCH</span> <br>
+<em class="cd-schedule__name" style="text-align:center">In Person Volunteering <br><br>Ray of Hope <br>Eliza Shirley House <br>Choosen 300 <br><br><span style="color:red;">BRING YOUR OWN LUNCH</span>
 </em>
 </a>
 </li><!-- end event-->
 
 <li class="cd-schedule__event"><!--event start-->
-<a data-start="15:00" data-end="16:00" data-content="event-devo-4" data-event="event-1" href="#0">
+<a data-start="15:00" data-end="16:00" data-content="event-devo-5" data-event="event-1" href="#0">
 <em class="cd-schedule__name">Debrief and Devos
 </em>
 </a>
@@ -28,7 +28,7 @@
 
 <li class="cd-schedule__event"><!--event start-->
 <a data-start="16:00" data-end="16:30" data-content="event-Games" data-event="event-2" href="#0">
-<em class="cd-schedule__name">Games Until Parent Pick Up
+<em class="cd-schedule__name">Closing/Zoom
 </em>
 </a>
 </li><!-- end event-->
@@ -49,4 +49,3 @@
 
 </ul>
 </li><!-- end day-->
-
